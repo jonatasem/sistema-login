@@ -1,49 +1,49 @@
 
 .container-login {
-    padding: 10rem;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+  padding: 10rem;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
 
-    form {
-        width: max-content;
-        padding: 1rem;
-        margin-top: 2rem;
+  form {
+    width: max-content;
+    padding: 1rem;
+    margin-top: 2rem;
+  }
+
+  article {
+    margin: 0.5rem;
+
+    label {
+      font-size: 18px;
     }
 
-    article {
-        margin: 0.5rem;
-
-        label {
-            font-size: 18px;
-        }
-
-        input {
-            padding: 0.5rem 1rem;
-            outline: 0;
-            border-radius: 0.5rem;
-            border: 1px solid silver;
-            margin-right: 0.5rem;
-        }
+    input {
+      padding: 0.5rem 1rem;
+      outline: 0;
+      border-radius: 0.5rem;
+      border: 1px solid silver;
+      margin-right: 0.5rem;
     }
+  }
 
-    .recall-forget {
-        margin: 0.5rem 0 1rem;
+  .recall-forget {
+    margin: 0.5rem 0 1rem;
 
-        label {
-            margin-right: 0.5rem;
+    label {
+      margin-right: 0.5rem;
 
-            input {
-                margin-right: 0.5rem;
-            }
-        }
+      input {
+        margin-right: 0.5rem;
+      }
     }
+  }
 
-    button {
-        margin: 0.5rem 0;
-        padding: 0.5rem 1rem;
-    }
+  button {
+    margin: 0.5rem 0;
+    padding: 0.5rem 1rem;
+  }
 
-    .container-logo {
-    }
+  .container-logo {
+  }
 }
